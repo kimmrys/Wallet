@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title= title
+      
+    link(rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+
+  body.text-white(style="background-color: #96C3CE; font-family: Verdana;")
+    main#accountVue(role="main" class="container")
+     div
+      h1.text-white.text-center.mt-3.mb-3.font-weight-bold B l a c k 4 uWallet
+      include includes/headerButtons.pug
+      .container.col-8.mt-4
+        h2.font-weight-bold Account
+      .container.col-7.mt-5.card.bg-light.text-dark.p-4
+         .col-12
+          h5 Account Name
+         .col-12
+          h4.font-weight-bold {{ account_name }}
+         .col-12
+          h5 Acount Number
+         .col-12
+          h4.font-weight-bold {{ account_number }}
+         .col-12
+          h5 Balance
+         .col-12
+          h4.font-weight-bold {{ balance }}
+            
+script(src="/axios.min.js")
+script(src="/vue.js")
+script(src="/scripts/account-vue.js")
