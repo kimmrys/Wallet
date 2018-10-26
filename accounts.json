@@ -2,7 +2,34 @@
 	"accounts": [
 		{
 			"account_number": "1000",
-			"account_name": "Rhenzo"
+			"account_name": "Rhenzo",
+			"balance": 0,
+			"transactions": [
+				{
+					"transaction_id": "1234-5678-9123",
+					"sender": "0711",
+					"receiver": "1000",
+					"amount": 500,
+					"timestamp": 1540443416,
+					"reference_id": "12AB34CD56EF"
+				},
+				{
+					"transaction_id": "1234-5678-9124",
+					"sender": "0711",
+					"receiver": "1000",
+					"amount": 200,
+					"timestamp": 1540464561,
+					"reference_id": "AB12CD34EF56"
+				},
+				{
+					"transaction_id": "1234-5678-9126",
+					"sender": "1000",
+					"receiver": "2000",
+					"amount": 100,
+					"timestamp": 1540464365,
+					"reference_id": "AB12CD34EF52"
+				}
+			]
 		}
 	]
 }
