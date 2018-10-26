@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "simple-json-store": "0.0.1"
   }
 }
